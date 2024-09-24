@@ -1,5 +1,5 @@
-<!ELEMENT MJ_kurzusfelvetel (hallgato,kurzusok)>
-    <!ATTLIST MJ_kurzusfelvetel 
+<!ELEMENT KacsirAndras_kurzusfelvetel (hallgato,kurzusok)>
+    <!ATTLIST KacsirAndrass_kurzusfelvetel 
         tanev CDATA #REQUIRED
         egyetem CDATA #FIXED "ME">
 
