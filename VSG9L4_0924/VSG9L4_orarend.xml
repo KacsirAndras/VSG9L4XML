@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KA_orarend SYSTEM "VSG9L4_orarend.dtd">
+
+<KA_orarend>
+
+		<ora id="ora_1" tipus="előadás">
+			<targy> Adatkezelés XML-ben </targy>
+			<idopont>
+				<nap> kedd </nap>
+				<tol> 10 </tol>
+				<ig> 12 </ig>
+			</idopont>
+			<helyszin> Inf/103 </helyszin>
+			<oktato> Dr. Bednarik László </oktato>
+			<szak> Programtervező Informatikus </szak>
+		</ora>
+		<ora id="ora_2" tipus="gyakorlat">
+			<targy> Adatkezelés XML-ben </targy>
+			<idopont>
+				<nap> kedd </nap>
+				<tol> 12 </tol>
+				<ig> 14 </ig>
+			</idopont>
+			<helyszin> Inf/103 </helyszin>
+			<oktato> Dr. Bednarik László </oktato>
+			<szak> Programtervező Informatikus </szak>
+		</ora>
+
+		<ora id="ora_3" tipus="előadás">
+			<targy> Szoftvertechnológia </targy>
+			<idopont>
+				<nap> szerda </nap>
+				<tol> 08 </tol>
+				<ig> 10 </ig>
+			</idopont>
+			<helyszin> III. Előadó </helyszin>
+			<oktato> Dr. Mileff Péter </oktato>
+			<szak> Programtervező Informatikus </szak>
+		</ora>
+		<ora id="ora_4" tipus="gyakorlat">
+			<targy> Szoftvertechnológia </targy>
+			<idopont>
+				<nap> szerda </nap>
+				<tol> 08 </tol>
+				<ig> 10 </ig>
+			</idopont>
+			<helyszin> III. Előadó </helyszin>
+			<oktato> Dr. Mileff Péter </oktato>
+			<szak> Programtervező Informatikus </szak>
+		</ora>
+
+</KA_orarend>

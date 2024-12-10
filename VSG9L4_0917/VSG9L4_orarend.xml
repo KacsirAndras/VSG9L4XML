@@ -2,8 +2,7 @@
 
 <KA_orarend>
 
-	<kedd>
-		<ora id="01" tipus="előadas">
+		<ora id="01" tipus="előadás">
 			<targy> Adatkezelés XML-ben </targy>
 			<idopont>
 				<nap> kedd </nap>
@@ -14,6 +13,7 @@
 			<oktato> Dr. Bednarik László </oktato>
 			<szak> Programtervező Informatikus </szak>
 		</ora>
+		
 		<ora id="02" tipus="gyakorlat">
 			<targy> Adatkezelés XML-ben </targy>
 			<idopont>
@@ -25,10 +25,8 @@
 			<oktato> Dr. Bednarik László </oktato>
 			<szak> Programtervező Informatikus </szak>
 		</ora>
-	</kedd>
 
-	<szerda>
-		<ora id="03" tipus="elmélet">
+		<ora id="03" tipus="előadás">
 			<targy> Szoftvertechnológia </targy>
 			<idopont>
 				<nap> szerda </nap>
@@ -39,6 +37,7 @@
 			<oktato> Dr. Mileff Péter </oktato>
 			<szak> Programtervező Informatikus </szak>
 		</ora>
+		
 		<ora id="04" tipus="gyakorlat">
 			<targy> Szoftvertechnológia </targy>
 			<idopont>
@@ -50,6 +49,53 @@
 			<oktato> Dr. Mileff Péter </oktato>
 			<szak> Programtervező Informatikus </szak>
 		</ora>
-	</szerda>
+		
+		<ora id="05" tipus="gyakorlat">
+			<targy> Mesterseges Intelligencia</targy>
+			<idopont>
+				<nap> szerda </nap>
+				<tol> 10 </tol>
+				<ig> 12 </ig>
+			</idopont>
+			<helyszin> Előadó </helyszin>
+			<oktato> Fazekas Levente </oktato>
+			<szak> Programtervező Informatikus </szak>
+		</ora>
+		
+		<ora id="06" tipus="előadás">
+			<targy> vállalati információs rendszerek fejlesztése</targy>
+			<idopont>
+				<nap> szerda </nap>
+				<tol> 14 </tol>
+				<ig> 16 </ig>
+			</idopont>
+			<helyszin> Előadó </helyszin>
+			<oktato> Dr. habil. Sasvári Péter </oktato>
+			<szak> Programtervező Informatikus </szak>
+		</ora>
+		
+		<ora id="07" tipus="előadás">
+			<targy> Mesterseges Intelligencia</targy>
+			<idopont>
+				<nap> szerda </nap>
+				<tol> 16 </tol>
+				<ig> 18 </ig>
+			</idopont>
+			<helyszin> Előadó xxxii </helyszin>
+			<oktato> Kunné Dr. Tamas Judit </oktato>
+			<szak> Programtervező Informatikus </szak>
+		</ora>
+		
+		<ora id="08" tipus="előadás">
+			<targy> vállalati információs rendszerek fejlesztése</targy>
+			<idopont>
+				<nap> szerda </nap>
+				<tol> 18 </tol>
+				<ig> 20 </ig>
+			</idopont>
+			<helyszin> Előadó </helyszin>
+			<oktato> Dr. habil. Sasvári Péter </oktato>
+			<szak> Programtervező Informatikus </szak>
+		</ora>
 
-</KacsirAndras_orarend>
+</KA_orarend>

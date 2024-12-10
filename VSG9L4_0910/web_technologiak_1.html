@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Technológiák 1.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: space-between;
+            align-items: center;
+			background-image: url('wallp.jpg');
+			background-size: cover;
+        }
+		nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin:  100px;
+            text-decoration: none;
+            color: #309f9f;
+        }
+       
+        main {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 0;
+        }
+        
+		.tartalom {
+            display: flex;
+            align-items: center;
+        }
+		
+        .leiras {
+            margin-right: 20px;
+        }
+		
+        footer {
+            background-color: #309f9f;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            width: 100%;
+            max-width: 400px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+	
+	 <nav>
+        <a href="adatbazisrendszerek.html">Adatbázisrendszerek</a>
+        <a href="web_technologiak_1.html">Web technológiák 1.</a>
+        <a href="szoftvertechnologia.html">Szoftvertechnológia</a>
+    </nav>
+	
+	<main>
+        <a href="index.html"> <img src="iit.jpg">
+        </a>
+		
+        <div class="tartalom">
+            <div class="leiras">
+                <h2>Web technológiák 1.</h2>
+                <p>Tárgy tematikus leírása:
+					Hálózati alapfogalmak, protokollok. HTTP protokoll. HTML űrlapok, objektumok beágyazása HTML-be, XHTML elemek. Űrlap formázás elemei. 
+					JavaScript alapok, jQuery nyelv elemei Apache webszerver telepítés, web szerver architektúra. PHP nyelv alapjai: PHP szerver oldali programok fejlesztése. 
+					AJAX alapok. GWT elemek.
+				</p>
+            </div>
+            <img src="webtech.png" width="100">
+        </div>
+    </main>
+
+
+    <footer>
+        <p>Hallgató: Kacsir András</p>
+        <p>Neptunkód: VSG9L4</p>
+        <p>2024, Miskolc</p>
+    </footer>
+
+</body>
+</html>
