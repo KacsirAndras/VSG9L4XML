@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE S7KTW0_kurzusfelvetel SYSTEM "S7KTW0_kurzusfelvetel.dtd"> -->
+
+
+<S7KTW0_kurzusfelvetel tanév="2024/25 I." egyetem="ME">
+
+
+	<hallgato>
+	        <hnev>Kacsir András</hnev>
+	        <szulev>1996-09-05</szulev>
+	        <szak evf="2019/20">Programtervező Informatikus</szak>
+   	</hallgato>
+    
+    <kurzusok>
+		
+        <kurzus id="S7KTW0" jovahagyas="igen" nyelv="magyar">
+            <kurzusnev>Adatkezelés XML-ben</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In/103</hely>
+            <idopont>Kedd 10:00</idopont>
+            <oktato>Dr. Bednarik László</oktato>
+        </kurzus>
+        
+        <kurzus id="WRMF12" jovahagyas="igen" nyelv="magyar">
+            <kurzusnev>Web Technológiák 1.</kurzusnev>
+            <kredit>5</kredit>
+            <hely>A3</hely>
+            <idopont>Szerda 16:00</idopont>
+            <oktato>Nyitrai Emese</oktato>
+        </kurzus>
+        
+        <kurzus id="FH25DE">
+            <kurzusnev>Szotvertechnológia</kurzusnev>
+            <kredit>5</kredit>
+            <hely>A4</hely>
+            <idopont>Szerda 08:00</idopont>
+            <oktato>Dr. Mileff Péter</oktato>
+        </kurzus>
+        
+        <kurzus id="KJIO78">
+            <kurzusnev>Angol Szaknyelvi Szövegértés</kurzusnev>
+            <kredit>2</kredit>
+            <hely>A220</hely>
+            <idopont>Kedd 12:00</idopont>
+            <oktato>Ajtonyi Angéla</oktato>
+        </kurzus>
+        
+    </kurzusok>
+    
+</S7KTW0_kurzusfelvetel>

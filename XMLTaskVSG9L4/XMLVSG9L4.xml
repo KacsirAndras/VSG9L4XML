@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webshop_adatbazis xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XMLSchemaVSG9L4.xsd">
+
+	<!-- Vevo -->
+
+	<vevo vevoid="1">
+		<nev>Junina Ansill</nev>
+		<szallitasi_cim>42 Hanson Avenue</szallitasi_cim>
+	</vevo>
+	
+	<vevo vevoid="2">
+		<nev>Terrence Carlisso</nev>
+		<szallitasi_cim>85908 Northport Court</szallitasi_cim>
+	</vevo>
+	
+	<vevo vevoid="3">
+		<nev>Stefan Roke</nev>
+		<szallitasi_cim>83 Eggendart Alley</szallitasi_cim>
+	</vevo>
+	
+	<vevo vevoid="4">
+		<nev>Audrie Pealing</nev>
+		<szallitasi_cim>7909 Rowland Trail</szallitasi_cim>
+	</vevo>
+	
+	<vevo vevoid="5">
+		<nev>Elana Marousek</nev>
+		<szallitasi_cim>9082 Nancy Pass</szallitasi_cim>
+	</vevo>
+	
+	<vevo vevoid="6">
+		<nev>Tandi Poure</nev>
+		<szallitasi_cim>497 Coolidge Junction</szallitasi_cim>
+	</vevo>
+	
+	<!-- Rendeles -->
+	
+	<rendeles vevoid="1" rendelesid= "1">
+		<szallitasi_koltseg>4378</szallitasi_koltseg>
+		<fizetesi_mod>jcb</fizetesi_mod>
+		<datum>2017-10-29</datum>
+		<fizetendo_osszeg>85000</fizetendo_osszeg>
+	</rendeles>
+
+	<rendeles vevoid="2" rendelesid= "2">
+		<szallitasi_koltseg>4002</szallitasi_koltseg>
+		<fizetesi_mod>jcb</fizetesi_mod>
+		<datum>2017-06-04</datum>
+		<fizetendo_osszeg>90000</fizetendo_osszeg>
+	</rendeles>
+
+	<rendeles vevoid="3" rendelesid= "3">
+		<szallitasi_koltseg>6215</szallitasi_koltseg>
+		<fizetesi_mod>visa-electron</fizetesi_mod>
+		<datum>2017-06-26</datum>
+		<fizetendo_osszeg>95000</fizetendo_osszeg>
+	</rendeles>
+
+	<rendeles vevoid="4" rendelesid= "4">
+		<szallitasi_koltseg>5412</szallitasi_koltseg>
+		<fizetesi_mod>switch</fizetesi_mod>
+		<datum>2017-08-24</datum>
+		<fizetendo_osszeg>100000</fizetendo_osszeg>
+	</rendeles>
+
+	<rendeles vevoid="5" rendelesid= "5">
+		<szallitasi_koltseg>6875</szallitasi_koltseg>
+		<fizetesi_mod>visa-electron</fizetesi_mod>
+		<datum>2016-12-15</datum>
+		<fizetendo_osszeg>110000</fizetendo_osszeg>
+	</rendeles>
+
+	<rendeles vevoid="6" rendelesid= "6">
+		<szallitasi_koltseg>4335</szallitasi_koltseg>
+		<fizetesi_mod>jcb</fizetesi_mod>
+		<datum>2017-02-25</datum>
+		<fizetendo_osszeg>115000</fizetendo_osszeg>
+	</rendeles>
+	
+	<!-- Termek -->
+	
+	<termek termekid="1">
+		<nev>Wine - Beaujolais Villages</nev>
+		<ar>80036</ar>
+	</termek>
+	
+	<termek termekid="2">
+		<nev>Shiro Miso;</nev>
+		<ar>49760</ar>
+	</termek>
+	
+	<termek termekid="3">
+		<nev>Milk - 2%</nev>
+		<ar>19946</ar>
+	</termek>
+	
+	<termek termekid="4">
+		<nev>'Salmon Steak</nev>
+		<ar>24013</ar>
+	</termek>
+	
+	<termek termekid="5">
+		<nev>Tomatoes</nev>
+		<ar>80288</ar>
+	</termek>
+	
+	<termek termekid="6">
+		<nev>'Almonds Ground Blanched',</nev>
+		<ar>11229</ar>
+	</termek>
+	
+	
+	<!-- Raktar -->
+	
+	<raktar raktarid="1">
+		<elerhetoseg>
+			<cim>01964 Gale Plaza</cim>
+			<telefonszam>156 239 0968</telefonszam>
+		</elerhetoseg>
+	</raktar>
+	
+	<raktar raktarid="2">
+		<elerhetoseg>
+			<cim>4317 Buell Pass</cim>
+			<telefonszam>262 138 4714</telefonszam>
+		</elerhetoseg>
+	</raktar>
+	
+	<raktar raktarid="3">
+		<elerhetoseg>
+			<cim>24070 Dayton Hill</cim>
+			<telefonszam>834 712 9185</telefonszam>
+		</elerhetoseg>
+	</raktar>
+	
+	<raktar raktarid="4">
+		<elerhetoseg>
+			<cim>81299 Northport Park</cim>
+			<telefonszam>771 770 1993</telefonszam>
+		</elerhetoseg>
+	</raktar>
+	
+	<raktar raktarid="5">
+		<elerhetoseg>
+			<cim>023 Lunder Point</cim>
+			<telefonszam>919 104 8245</telefonszam>
+		</elerhetoseg>
+	</raktar>
+		
+	<raktar raktarid="6">
+		<elerhetoseg>
+			<cim>05 Waubesa Junction</cim>
+			<telefonszam>580 230 7788</telefonszam>
+		</elerhetoseg>
+	</raktar>
+	
+	<!-- Tulajdonos -->
+	
+	<tulajdonos uzletid="1" raktarid="1">
+		<nev>Gill Penna</nev>
+	</tulajdonos>
+	
+	<tulajdonos uzletid="1" raktarid="2">
+		<nev>Bing Garahan</nev>
+	</tulajdonos>
+	
+	<tulajdonos uzletid="2" raktarid="1">
+		<nev>Olwen Elcoux</nev>
+	</tulajdonos>
+	
+	<tulajdonos uzletid="3" raktarid="6">
+		<nev>Brig Ollerton</nev>
+	</tulajdonos>
+	
+	<tulajdonos uzletid="4" raktarid="4">
+		<nev>Nedda Goodred</nev>
+	</tulajdonos>
+	
+	<tulajdonos uzletid="5" raktarid="5">
+		<nev>Sherilyn Stubs</nev>
+	</tulajdonos>
+	
+	<!-- Uzlet -->
+	
+	<uzlet uzletid="1">
+		<elerhetoseg>
+			<cim>65 Gerald Place</cim>
+			<telefonszam>358 639 6452'</telefonszam>
+			<email>jlosano0@posterous.com</email>
+		</elerhetoseg>
+	</uzlet>
+	
+	<uzlet uzletid="2">
+		<elerhetoseg>
+			<cim>6650 Alpine Terrace</cim>
+			<telefonszam>449 245 9016</telefonszam>
+			<email></email>
+		</elerhetoseg>
+	</uzlet>
+	
+	<uzlet uzletid="3">
+		<elerhetoseg>
+			<cim>314 Cardinal Point</cim>
+			<telefonszam>357 758 0118</telefonszam>
+			<email>gsanson2@drupal.org</email>
+		</elerhetoseg>
+	</uzlet>
+	
+	<uzlet  uzletid="4">
+		<elerhetoseg>
+			<cim>7597 Thackeray Way</cim>
+			<telefonszam>333 727 0857</telefonszam>
+			<email>mcuttles3@squidoo.com</email>
+		</elerhetoseg>
+	</uzlet>
+	
+	<uzlet  uzletid="5">
+		<elerhetoseg>
+			<cim>05038 Acker Alley</cim>
+			<telefonszam>342 796 3543</telefonszam>
+			<email>gbaukham4@networksolutions.com</email>
+		</elerhetoseg>
+	</uzlet>
+	
+	<uzlet  uzletid="6">
+		<elerhetoseg>
+			<cim>58 Ryan Junction</cim>
+			<telefonszam>688 739 6577</telefonszam>
+			<email>okunzel5@elpais.com</email>
+		</elerhetoseg>
+	</uzlet>
+	
+
+</webshop_adatbazis>

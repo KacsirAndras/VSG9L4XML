@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified">
+
+    <!-- Simple Types -->
+
+    <xs:simpleType name="datum_type">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="nev_type">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z][a-zA-Z]*( [A-Z][a-zA-Z]*)*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Complex Types -->
+
+    <xs:complexType name="vevo_tipus">
+        <xs:sequence>
+            <xs:element name="nev" type="nev_type"/>
+            <xs:element name="szallitasi_cim" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="vevoid" type="xs:integer" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="rendeles_tipus">
+        <xs:sequence>
+            <xs:element name="szallitasi_koltseg" type="xs:integer"/>
+            <xs:element name="fizetesi_mod" type="xs:string"/>
+            <xs:element name="datum" type="datum_type"/>
+            <xs:element name="fizetendo_osszeg" type="xs:integer"/>
+        </xs:sequence>
+        <xs:attribute name="vevoid" type="xs:integer" use="required"/>
+        <xs:attribute name="rendelesid" type="xs:integer" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="termek_tipus">
+        <xs:sequence>
+            <xs:element name="nev" type="xs:string"/>
+            <xs:element name="ar" type="xs:integer"/>
+        </xs:sequence>
+        <xs:attribute name="termekid" type="xs:integer" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="raktar_tipus">
+        <xs:sequence>
+            <xs:element name="elerhetoseg">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="cim" type="xs:string"/>
+                        <xs:element name="telefonszam" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="raktarid" type="xs:integer" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="tulajdonos_tipus">
+        <xs:sequence>
+            <xs:element name="nev" type="nev_type"/>
+        </xs:sequence>
+        <xs:attribute name="uzletid" type="xs:integer" use="required"/>
+        <xs:attribute name="raktarid" type="xs:integer" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="uzlet_tipus">
+        <xs:sequence>
+            <xs:element name="elerhetoseg">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="cim" type="xs:string"/>
+                        <xs:element name="telefonszam" type="xs:string"/>
+                        <xs:element name="email" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="uzletid" type="xs:integer" use="required"/>
+    </xs:complexType>
+
+    <!-- Root Element -->
+
+    <xs:element name="webshop_adatbazis">
+     <xs:complexType>
+        <xs:sequence>
+            <xs:element name="vevo" type="vevo_tipus" maxOccurs="unbounded"/>
+            <xs:element name="rendeles" type="rendeles_tipus" maxOccurs="unbounded"/>
+            <xs:element name="termek" type="termek_tipus" maxOccurs="unbounded"/>
+            <xs:element name="raktar" type="raktar_tipus" maxOccurs="unbounded"/>
+            <xs:element name="tulajdonos" type="tulajdonos_tipus" maxOccurs="unbounded"/>
+            <xs:element name="uzlet" type="uzlet_tipus" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <!-- Keys -->
+        <xs:key name="raktarKey">
+            <xs:selector xpath="raktar"/>
+            <xs:field xpath="@raktarid"/>
+        </xs:key>
+        <xs:key name="vevoKey">
+            <xs:selector xpath="vevo"/>
+            <xs:field xpath="@vevoid"/>
+        </xs:key>
+        <!-- Keyrefs -->
+        <xs:keyref name="vevoRef" refer="vevoKey">
+            <xs:selector xpath="rendeles"/>
+            <xs:field xpath="@vevoid"/>
+        </xs:keyref>
+        <xs:keyref name="raktarRef" refer="raktarKey">
+            <xs:selector xpath="tulajdonos"/>
+            <xs:field xpath="@raktarid"/>
+        </xs:keyref>
+    </xs:complexType>
+</xs:element>
+
+
