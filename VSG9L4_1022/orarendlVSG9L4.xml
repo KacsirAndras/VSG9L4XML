@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<orarend xmlns="DOMS7KTW0">
+  <orarend id="1">
+    <tipus>eloadas</tipus>
+    <nev>Adatkezelés XML-ben</nev>
+    <idopont>
+      <nap>kedd</nap>
+      <tol>10</tol>
+      <ig>12</ig>
+    </idopont>
+    <helyszin>Inf/103</helyszin>
+    <oktato>Dr. Bednarik László</oktato>
+    <szak>Programtervező Informatikus</szak>
+  </orarend>
+  <orarend id="2">
+    <tipus>gyakorlat</tipus>
+    <nev>Adatkezelés XML-ben</nev>
+    <idopont>
+      <nap>kedd</nap>
+      <tol>12</tol>
+      <ig>14</ig>
+    </idopont>
+    <helyszin>Inf/103</helyszin>
+    <oktato>Dr. Bednarik László</oktato>
+    <szak>Programtervező Informatikus</szak>
+  </orarend>
+  <orarend id="3">
+    <tipus>eloadas</tipus>
+    <nev>Szoftvertechnológia</nev>
+    <idopont>
+      <nap>szerda</nap>
+      <tol>08</tol>
+      <ig>10</ig>
+    </idopont>
+    <helyszin>III. Előadó</helyszin>
+    <oktato>Dr. Mileff Péter</oktato>
+    <szak>Programtervező Informatikus</szak>
+  </orarend>
+  <orarend id="4">
+    <tipus>gyakorlat</tipus>
+    <nev>Szoftvertechnológia</nev>
+    <idopont>
+      <nap>szerda</nap>
+      <tol>10</tol>
+      <ig>12</ig>
+    </idopont>
+    <helyszin>III. Előadó</helyszin>
+    <oktato>Dr. Mileff Péter</oktato>
+    <szak>Programtervező Informatikus</szak>
+  </orarend>
+</orarend>

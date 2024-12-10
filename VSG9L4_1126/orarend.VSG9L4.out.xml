@@ -1,0 +1,58 @@
+
+<!-- saved from url=(0076)file:///C:/Users/Andris/Desktop/Workspace/S7KTW0_1126/orarendS7KTW0.out.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Órarend</title>
+        <style>
+        
+          body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+          }
+
+          table {
+            width: 70%;
+            border-collapse: collapse;
+          }
+          th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+          }
+          th {
+            background-color: #8bd9f7;
+          }
+          tr:nth-child(even) {
+            background-color: #f2f2f2;
+          }
+          
+        </style>
+    </head>
+    <body>
+        <table>
+            <tbody><tr>
+                <th>ID</th><th>Típus</th><th>Tárgy</th><th>Nap</th><th>Időpont</th><th>Helyszín</th><th>Oktató</th><th>Szak</th>
+            </tr>
+            <tr>
+                <td>01</td><td>előadás</td><td> Adatkezelés XML-ben </td><td> kedd </td><td> 10 -               
+                 12 </td><td> Inf/103 </td><td> Dr. Bednarik László </td><td> Programtervező Informatikus </td>
+            </tr>
+            <tr>
+                <td>02</td><td>gyakorlat</td><td> Adatkezelés XML-ben </td><td> kedd </td><td> 12 -               
+                 14 </td><td> Inf/103 </td><td> Dr. Bednarik László </td><td> Programtervező Informatikus </td>
+            </tr>
+            <tr>
+                <td>03</td><td>előadás</td><td> Szoftvertechnológia </td><td> szerda </td><td> 08 -               
+                 10 </td><td> III. Előadó </td><td> Dr. Mileff Péter </td><td> Programtervező Informatikus </td>
+            </tr>
+            <tr>
+                <td>04</td><td>gyakorlat</td><td> Szoftvertechnológia </td><td> szerda </td><td> 10 -               
+                 12 </td><td> III. Előadó </td><td> Dr. Mileff Péter </td><td> Programtervező Informatikus </td>
+            </tr>
+        </tbody></table>
+    
+
+</body></html>

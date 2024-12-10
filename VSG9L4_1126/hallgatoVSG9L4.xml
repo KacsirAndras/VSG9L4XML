@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="hallgatoS7KTW0.xsl"?>
+
+<class>
+
+	<student id="01">
+		<vezeteknev>Kacsir</vezeteknev>
+		<keresztnev>András</keresztnev>
+		<becenev>Bandi</becenev>
+		<kor>28</kor>
+		<osztondij>100000</osztondij>
+	</student>
+	<student id="02">
+		<vezeteknev>Vigh</vezeteknev>
+		<keresztnev>Piroska</keresztnev>
+		<becenev>Piri</becenev>
+		<kor>23</kor>
+		<osztondij>555000</osztondij>
+	</student>
+	<student id="03">
+		<vezeteknev>Nagy</vezeteknev>
+		<keresztnev>Ferenc</keresztnev>
+		<becenev>Fecó</becenev>
+		<kor>24</kor>
+		<osztondij>200000</osztondij>
+	</student>
+
+</class>
