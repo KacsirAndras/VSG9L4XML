@@ -33,7 +33,11 @@ public class DomReadVSG9L4 {
                 Element vevo = (Element) vevok.item(i);
                 System.out.println("  Vevő ID: " + vevo.getAttribute("vevoid"));
                 System.out.println("  Név: " + vevo.getElementsByTagName("nev").item(0).getTextContent());
-                System.out.println("  Szállítási cím: " + vevo.getElementsByTagName("szallitasi_cim").item(0).getTextContent());
+                NodeList cimek = vevo.getElementsByTagName("szallitasi_cim");
+                for (int j = 0; j < cimek.getLength(); j++) {
+                    System.out.println("  Cím: " + cimek.item(j).getTextContent());
+                }
+                System.out.println();
             }
 
             // Rendelések kiolvasása

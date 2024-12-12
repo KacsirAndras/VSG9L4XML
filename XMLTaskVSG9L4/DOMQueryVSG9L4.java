@@ -61,6 +61,41 @@ public class DOMQueryVSG9L4 {
 	                System.out.println("Ár: " + ar);
 	                System.out.println();
 	            }
+	            
+	            System.out.println("Rendelések 2017-06-01 előtt:");
+	            for (int i = 0; i < rendelesek.getLength(); i++) {
+	                Element rendeles = (Element) rendelesek.item(i);
+	                String datum = rendeles.getElementsByTagName("datum").item(0).getTextContent();
+
+	                if (datum.compareTo("2017-06-01") < 0) {
+	                    String vevoId = rendeles.getAttribute("vevoid");
+	                    String rendelesId = rendeles.getAttribute("rendelesid");
+	                    System.out.println("  Rendelés ID: " + rendelesId + ", Vevő ID: " + vevoId + ", Dátum: " + datum);
+	                }
+	            }
+
+	            System.out.println("\nVevők több mint 1 szállítási címmel:");
+	            NodeList vevok = doc.getElementsByTagName("vevo");
+	            for (int i = 0; i < vevok.getLength(); i++) {
+	                Element vevo = (Element) vevok.item(i);
+	                NodeList szallitasiCimek = vevo.getElementsByTagName("szallitasi_cim");
+
+	                if (szallitasiCimek.getLength() > 1) {
+	                    String nev = vevo.getElementsByTagName("nev").item(0).getTextContent();
+	                    System.out.println("  Név: " + nev);
+	                }
+	            }
+
+	            System.out.println("\nTermékek, amelyek ára több mint 20000:");
+	            for (int i = 0; i < termekek.getLength(); i++) {
+	                Element termek = (Element) termekek.item(i);
+	                int ar = Integer.parseInt(termek.getElementsByTagName("ar").item(0).getTextContent());
+
+	                if (ar > 20000) {
+	                    String nev = termek.getElementsByTagName("nev").item(0).getTextContent();
+	                    System.out.println("  Termék neve: " + nev + ", Ár: " + ar);
+	                }
+	            }
 
 	        } catch (Exception e) {
 	            e.printStackTrace();
